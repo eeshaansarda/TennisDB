@@ -1,0 +1,46 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Create player</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+    </head>
+    <body>
+        <h1>Create player</h1>
+        <form action="#" onsubmit="return validateForm(this)">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email"><br><br>
+            <label for="forename">Forename:</label>
+            <input type="text" id="forename" name="forename"><br><br>
+            <label for="middlenames">Middlename(s):</label>
+            <input type="text" id="middlenames" name="middlenames"><br><br>
+            <label for="surname">Surname:</label>
+            <input type="text" id="surname" name="lname"><br><br>
+            <label for="date_of_birth">Date of birth:</label>
+            <input type="date" id="date_of_birth" name="date_of_birth"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+        <br/><br/>
+        <br/><br/>
+        <form action="#" onsubmit="return validatePhoneForm(this)">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email"><br><br>
+            <label for="phone">Phone number:</label>
+            <input type="tel" id="phone_number" name="phone_number"><br><br>
+            <label for="phone_type">Phone type:</label>
+            <select id="phone_type" name="phone_type">
+                <option value="home">Home</option>
+                <option value="mobile">Mobile</option>
+                <option value="work">Work</option>
+            </select><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+    <script type="text/javascript" src="player.js"></script>
+</html>
